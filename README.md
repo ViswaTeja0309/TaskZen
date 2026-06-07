@@ -1,18 +1,25 @@
-#  TaskZen
+# TaskZen
 
 TaskZen is a modern productivity and task management application built with React. It helps users organize tasks, track progress, manage notes, and visualize productivity through an analytics dashboard.
 
-
-# Live Demo Link
+## Live Demo
 
 https://task-zen-black.vercel.app/
 
+## Project Highlights
 
-##  Screenshots
+* Multi-page React application using React Router
+* Persistent task and notes storage using LocalStorage
+* Goal tracking and productivity analytics dashboard
+* Interactive charts built with Recharts
+* Responsive design for mobile, tablet, and desktop
+* Deployed using Vercel
+
+## Screenshots
 
 ### Login Page
 
-![Login](./screenshots/Login page.png)
+![Login](./screenshots/Login_page.png)
 
 ### Dashboard
 
@@ -32,57 +39,55 @@ https://task-zen-black.vercel.app/
 
 ### Analytics Dashboard
 
-![Analytics](./screenshots/Analytics1.png) | ![Analytics](./screenshots/Analytics2.png)
+![Analytics 1](./screenshots/Analytics1.png)
+
+![Analytics 2](./screenshots/Analytics2.png)
 
 ### Settings Page
 
 ![Settings](./screenshots/Settings.png)
 
+## Features
 
-
-##  Features
-
-###  Task Management
+### Task Management
 
 * Create new tasks
 * Mark tasks as completed
 * Delete tasks
 * Track pending and completed tasks
 
-###  Task Notes
+### Task Notes
 
 * Open individual task pages
 * Add and edit notes for each task
 * Notes automatically persist using LocalStorage
 
-###  Goal Tracking
+### Goal Tracking
 
 * Set task completion goals
 * Monitor goal progress in real-time
-* Progress percentage calculation
+* Calculate completion percentage
 
-###  Analytics Dashboard
+### Analytics Dashboard
 
 * Productivity Score
 * Task Completion Statistics
 * Interactive Pie Chart Visualization
 * Pending vs Completed Task Breakdown
 
-###  User Personalization
+### User Personalization
 
 * Personalized welcome screen
 * Change username anytime
-* User data persistence with LocalStorage
+* User data persistence using LocalStorage
 
-###  Responsive Design
+### Responsive Design
 
 * Mobile-friendly interface
 * Tablet support
 * Desktop optimized layout
 
----
-
-##  Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -107,8 +112,7 @@ https://task-zen-black.vercel.app/
 * GitHub
 * Vercel
 
-
-##  Key Learning Outcomes
+## Key Learning Outcomes
 
 This project helped strengthen skills in:
 
@@ -124,42 +128,40 @@ This project helped strengthen skills in:
 * Git & GitHub Workflow
 * Deployment using Vercel
 
----
-
 ## Installation
 
 Clone the repository:
 
-
-git clone https://github.com/ViswaTeja0309/taskzen.git
-
+```bash
+git clone https://github.com/ViswaTeja0309/TaskZen.git
+```
 
 Navigate to the project folder:
 
-
-cd taskzen
-
+```bash
+cd TaskZen
+```
 
 Install dependencies:
 
-
+```bash
 npm install
+```
 
+Start the development server:
 
-Start development server:
-
-
+```bash
 npm run dev
+```
 
----
+## Author
 
-
-##  Author
-
-**Viswa Teja**
+Viswa Teja
 
 Frontend Developer
 
-GitHub: https://github.com/ViswaTeja0309
+GitHub:
+https://github.com/ViswaTeja0309
 
-
+Project Repository:
+https://github.com/ViswaTeja0309/TaskZen
