@@ -2,6 +2,44 @@
 
 TaskZen is a modern productivity and task management application built with React. It helps users organize tasks, track progress, manage notes, and visualize productivity through an analytics dashboard.
 
+
+# Live Demo Link
+
+https://task-zen-black.vercel.app/
+
+
+##  Screenshots
+
+### Login Page
+
+![Login](./screenshots/Login page.png)
+
+### Dashboard
+
+![Dashboard](./screenshots/Dashboard.png)
+
+### Tasks Page
+
+![Tasks](./screenshots/Tasks.png)
+
+### Task Notes
+
+![Task Notes](./screenshots/Notes.png)
+
+### Goal Tracking
+
+![Goal](./screenshots/Goal.png)
+
+### Analytics Dashboard
+
+![Analytics](./screenshots/Analytics1.png) | ![Analytics](./screenshots/Analytics2.png)
+
+### Settings Page
+
+![Settings](./screenshots/Settings.png)
+
+
+
 ##  Features
 
 ###  Task Management
@@ -93,7 +131,7 @@ This project helped strengthen skills in:
 Clone the repository:
 
 
-git clone https://github.com/your-username/taskzen.git
+git clone https://github.com/ViswaTeja0309/taskzen.git
 
 
 Navigate to the project folder:
