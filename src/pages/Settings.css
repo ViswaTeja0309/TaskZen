@@ -1,0 +1,144 @@
+.setting-container {
+
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.setting-container h2 {
+
+    color: white;
+    font-size: 24px;
+}
+
+.user-name {
+    
+    display:flex;
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    gap:16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-name h1 {
+
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.user-name p {
+
+    color: #60a5fa;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.change-name {
+
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.new-name-input {
+
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+.update-name-btn {
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.update-name-btn:hover {
+
+    background-color: #2563eb;
+    color: white;
+}
+
+.reset-old-data {
+
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.reste-btn {
+
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.reste-btn:hover {
+
+    background-color: #dc2626;
+    color: white;
+}
+
+@media (max-width:768px){
+
+    .setting-container{
+        padding:15px;
+        align-items:center;
+    }
+
+    .user-name,
+    .change-name,
+    .reset-old-data{
+        width:100%;
+        max-width:320px;
+        box-sizing:border-box;
+    }
+
+    .user-name{
+        flex-direction:column;
+        text-align:center;
+        gap:8px;
+    }
+
+    .change-name{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .new-name-input{
+        width:100%;
+    }
+
+    .update-name-btn,
+    .reste-btn{
+        width:auto;
+        padding:10px 20px;
+    }
+
+    .reset-old-data{
+        display:flex;
+        justify-content:center;
+        gap:30px;
+    }
+}

@@ -1,0 +1,323 @@
+.header h1{
+    
+    text-align: start;
+    font-size:30PX;
+}
+
+.header p {
+
+    text-align: start;
+    color:#9ca3af;
+}
+
+.first-box{
+
+    display:flex;
+    justify-content:space-evenly;
+    background-color: #1e293b;
+    border-radius:10px;
+    align-items:center;
+    padding:20px;
+    margin-top:20px;
+}
+
+.first-box-1 {
+    flex:1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-center-text {
+    position: absolute;
+    text-align: center;
+}
+
+.chart-center-text h2 {
+    font-size: 42px;
+    color: white;
+}
+
+.chart-center-text p {
+    color: #9ca3af;
+}
+
+.first-box-2 {
+
+    flex:1;
+}
+
+.total-task,
+.completed-task,
+.pending-task{
+
+    display:flex;
+    justify-content:space-between;
+    padding:10px 0;
+    align-items: center;
+}
+
+.task-info {
+
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+.icon-box{
+
+    width:60px;
+    height:60px;
+
+    border-radius:14px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:24px;
+}
+
+.total-icon{
+
+    background:rgba(59,130,246,0.15);
+    color:#60a5fa;
+}
+
+.completed-icon{
+
+    background:rgba(34,197,94,0.15);
+    color:#4ade80;
+}
+
+.pending-icon{
+
+    background:rgba(249,115,22,0.15);
+    color:#fb923c;
+}
+.total-task h3{
+
+    color:#60a5fa;
+    font-size:32px;
+}
+
+.completed-task h3{
+
+    color:#4ade80;
+    font-size:32px;
+
+}
+
+.pending-task h3{
+
+    color:#fb923c;
+    font-size:32px;
+}
+
+
+
+
+.second-box {
+
+    display:flex;
+    justify-content:space-evenly;
+    background-color: #1e293b;
+    border-radius:10px;
+    align-items:center;
+    padding:30px;
+    margin-top:20px;
+}
+
+.second-box-1 {
+    position: relative;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.chart-center-text h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.chart-center-text p {
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.second-box-2 {
+
+    flex:1;
+}
+
+.completed,
+.pending,
+.total {
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 0;
+}
+
+.completed h4,
+.pending h4,
+.total h4 {
+
+    font-size:18px;
+} 
+
+.completed h3,
+.pending h3 {
+
+   font-size:24px;
+   font-weight:300;
+}
+
+.total h3{
+
+     font-size:24px;
+     font-weight:300;
+}
+
+.completed-icon{
+    color:#22c55e;
+    margin-right:8px;
+}
+.pending-icon{
+    color:#eab308;
+    margin-right:8px;
+}
+.total-icon{
+    color:#0f60e2;
+    margin-right:8px;
+    background-color: #8ab0ee;
+    backdrop-filter:blur(10px);
+    font-size:20px;
+}
+
+.label{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.completed-dot{
+
+    width:14px;
+    height:14px;
+
+    border-radius:50%;
+
+    background:#22c55e;
+}
+
+.pending-dot{
+
+    width:14px;
+    height:14px;
+
+    border-radius:50%;
+
+    background:#f97316;
+}
+
+.header-2 h1{
+
+    text-align:start;
+    font-size:30PX;
+}
+
+.header-2 p {
+
+    text-align: start;
+    color:#9ca3af;
+}
+
+.status-message {
+
+    padding-top:40px;
+    text-align: center;
+}
+
+@media (max-width:768px){
+
+    .header h1{
+        font-size:24px;
+        text-align:center;
+    }
+
+    .header p{
+        text-align:center;
+        font-size:14px;
+    }
+
+    .first-box{
+        flex-direction:column;
+        gap:30px;
+        padding:20px;
+    }
+
+    .first-box-2{
+        width:100%;
+    }
+
+    .task-info{
+        gap:10px;
+    }
+
+    .icon-box{
+        width:50px;
+        height:50px;
+        font-size:20px;
+    }
+
+    .total-task h3,
+    .completed-task h3,
+    .pending-task h3{
+        font-size:24px;
+    }
+
+    .second-box{
+        flex-direction:column;
+        gap:30px;
+        padding:20px;
+    }
+
+    .second-box-1{
+        width:100%;
+    }
+
+    .second-box-2{
+        width:100%;
+    }
+
+    .completed,
+    .pending,
+    .total{
+        padding:15px 0;
+    }
+
+    .completed h4,
+    .pending h4,
+    .total h4{
+        font-size:16px;
+    }
+
+    .completed h3,
+    .pending h3,
+    .total h3{
+        font-size:20px;
+    }
+}
